@@ -11,16 +11,20 @@ h1, p {
 	border-radius: 15px;
 }
 
-.center {
-	height: 100%;
-	width: 100%;
+.container {
+	position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+	text-align: center;
 }
 
-.container {
-	align-items: center;
-	display: flex;
-	justify-content: center;
-	height: 100%;
-	width: 100%;
+footer {
 	text-align: center;
+	font-size: 8pt;
+	position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
 }
